@@ -1,2 +1,2 @@
 var conf=require('configure.js');
-echo conf.mysql.host;
+console.log("mysql.host:"+ conf.mysql.host);

@@ -1,6 +1,6 @@
 var config={
 	mysql:{
-		host:'',
+		host:'www.local.com',
 		port:'',
 		user:'',
 		password:'',

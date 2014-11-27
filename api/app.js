@@ -31,7 +31,9 @@ app.use('/docs', express.static(path.join(__dirname, 'docs')));
 app.redirect('/docs','/docs/index.html');
 app.redirect('/docs/','/docs/index.html');
 app.redirect('/','/docs/index.html');
-
+app.post('/user/login',function(req,res,error){
+  res.json({result:'OK'});
+});
 http.createServer(app).listen(app.get('port'), function(error) {
 	if (error) {
 		console.log(error);

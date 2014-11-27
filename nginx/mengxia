@@ -1,0 +1,12 @@
+server{
+  server_name mengxia.me www.mengxia.me lxzhu.net www.lxzhu.net;
+  root /var/www/ips/html;
+  index index.html index.htm
+  access_log /var/log/nginx/mengxia_access.log
+  error_log /var/log/nginx/mengxia_error.log
+  
+  location /{
+    tryfiles $url $url/ =404
+  }
+  
+}

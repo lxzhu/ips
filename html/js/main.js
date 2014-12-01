@@ -1,0 +1,47 @@
+require.config({
+baseUrl:"js",
+paths:{
+	jquery:'lib/jquery-1.11.1.min',
+	angular:'lib/angular-1.2.20/angular',
+	domReady:'lib/require/domReady-2.0.1',
+	twitter:'lib/bootstrap-3.3.0',
+	app:'app',
+	ibootstrap:'ibootstrap',
+	router:'router',
+	angularAnimate:'lib/angular-1.2.20/angular-animate',
+	angularCookie:'lib/angular-1.2.20/angular-cookie',
+	angularLoader:'lib/angular-1.2.20/angular-loader',
+	angularUiRouter:'lib/angular-ui-router',
+	uiBootstarpTpls:'lib/ui-bootstrap-tpls',
+	less:'lib/less.min'
+},
+shim:{
+	'twitter/js/bootstrap.min':{
+		deps:['jquery']
+	},
+	angular:{
+		deps:['jquery','twitter/js/bootstrap.min'],
+		exports:'angular'
+	},
+	angularAnimate:{
+		deps:['angular'],
+		exports:'angularAnimate'
+	},
+	angularCookie:{
+		deps:['angular'],
+		exports:'angularCookie'
+	},
+	angularUiRouter:{
+		deps:['jquery','angular'],
+		exports:'angularUiRouter'
+	},
+	uiBootstarpTpls:{
+		deps:['jquery','twitter/js/bootstrap','angular'],
+		exports:'uiBootstarpTpls'
+	},
+	less:{
+		deps:['jquery']
+	}
+},
+deps:['ibootstrap']
+});

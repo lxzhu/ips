@@ -9,6 +9,7 @@
     <!-- Bootstrap -->
     <link href="js/lib/bootstrap-3.3.0/css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet/less" type="text/css" href="css/main.less" />
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
 	<script src="js/lib/jquery-1.11.1.min.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -16,7 +17,7 @@
       <script src="js/lib/html5shiv.js"></script>
       <script src="js/lib/respond.min.js"></script>
     <![endif]-->
-	<script>
+	<!--<script>
 		less={
 			env:'development',
 			logLevel:2,
@@ -29,12 +30,28 @@
 			relativeUrls:false,
 			rootpath:'/css/'
 		}
-	</script>
-	<script src="js/lib/less.min.js"></script>
+	</script>-->
+	<!--<script src="js/lib/less.min.js"></script>-->
   </head>
   <body ng-controller="helloController">
-    <h1> {{text}}</h1>
-	<button class="mx-btn-primary">Clear</button>
+    <div class="nav-bar">
+      <div class="container">
+				<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+					</div>
+					<div id="navbar" class="navbar-collapse collapse">
+					</div>
+				</div>
+			</div>		
+		</div>
+		<div class="container">
+			<div class="rows">
+				Welcome ,Mengxia
+			</div>
+		</div>
+	</div>
+	
     <!--<script src="js/lib/require/require-2.1.11.min.js" data-main="js/main"></script>-->
 	
 	<script src="js/lib/angular-1.2.20/angular.js" ></script>

@@ -1,0 +1,55 @@
+require.config({
+baseUrl:"js",
+paths:{
+	angular:'lib/angular-1.2.20/angular',
+	jquery:'lib/jquery-1.11.1.min',
+	domReady:'lib/require/domReady-2.0.1',
+	twitter:'lib/bootstrap-3.3.0',
+	app:'app',
+	ibootstrap:'ibootstrap',
+	router:'router',
+	angularAnimate:'lib/angular-1.2.20/angular-animate',
+	angularCookie:'lib/angular-1.2.20/angular-cookie',
+	angularResource:'lib/angular-1.2.20/angular-resource',
+	angularUiRouter:'lib/angular-ui-router',
+	uiBootstarpTpls:'lib/ui-bootstrap-tpls',
+	less:'lib/less.min'
+},
+shim:{
+	'twitter/js/bootstrap.min':{
+		deps:['jquery']
+	},
+	angular:{
+		deps:['jquery','twitter/js/bootstrap.min'],
+		exports:'angular'
+	},
+	/*angularAnimate:{
+		deps:['angular'],
+		exports:'angularAnimate'
+	},
+	angularCookie:{
+		deps:['angular'],
+		exports:'angularCookie'
+	},*/
+	angularResource:{
+		deps:['angular'],
+		exports:'angularResource'
+	},
+	angularUiRouter:{
+		deps:['jquery','angular'],
+		exports:'angularUiRouter'
+	},
+	/*angularRouter:{
+		deps:['angular'],
+		exports:'angularRouter'
+	},*/
+	uiBootstarpTpls:{
+		deps:['jquery','twitter/js/bootstrap','angular'],
+		exports:'uiBootstarpTpls'
+	},
+	less:{
+		deps:['jquery']
+	}
+},
+deps:['ibootstrap']
+});

@@ -16,15 +16,32 @@ _italic_hello_world_
 want a link to other page?
 [let's bing](http://www.bing.com)
 
-quota someone's notes:
+quote from <<Fooled by Randomness>>:
 >From the standpoint of an institution, the existence of a rick manager has less to do with actual risk reduction than it has to do with the _impression_ of risk reduction
 
-here we have some code
+here we have some javascript code
 ```javascript
 function foo(){
   console.log("hello markdown!");
 }
 ```
+now comes the css
+```css
+.clearfix:after {
+	clear: both;
+	content: " ";
+	display: block;
+	font-size: 0;
+	height: 0;
+	visibility: hidden;
+}
+
+.clearfix {
+	display: block;
+	height: 1%;
+}
+```
+
 let me show you a picture
 ![its great](https://octodex.github.com/images/yaktocat.png)
 

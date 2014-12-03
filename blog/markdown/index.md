@@ -55,3 +55,13 @@ want to make a list?
   - inception
   - brave heart
 
+look!, we could have a todo list here:
+- [x] start blog with markdown syntax
+- [x] write some python code
+- [] get some money
+- [] learn chinese calligraphy
+
+finally, a table
+|book name | author | isbn |
+|----------|--------|------|
+|Fooled by Randomness|Nassim Nicholas Taleb|978-0-141-03274-0|

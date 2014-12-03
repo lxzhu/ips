@@ -13,8 +13,13 @@ simple paragraph b
 **bold2**
 
 _italic_hello_world_
-here we have some code
+want a link to other page?
+[let's bing](http://www.bing.com)
 
+quota someone's notes:
+>From the standpoint of an institution, the existence of a rick manager has less to do with actual risk reduction than it has to do with the _impression_ of risk reduction
+
+here we have some code
 ```javascript
 function foo(){
   console.log("hello markdown!");
@@ -32,3 +37,4 @@ want to make a list?
 * movies
   - inception
   - brave heart
+

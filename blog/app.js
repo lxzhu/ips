@@ -17,7 +17,10 @@ marked.setOptions({
 	pedantic : false,
 	sanitize : true,
 	smartLists : true,
-	smartypants : false
+	smartypants : false,
+	highlight: function (code) {
+	    return highlight.highlightAuto(code).value;
+	  }
 });
 app.set('port', process.env.PORT || 8000);
 app.redirect('/', '/articles/index.html');

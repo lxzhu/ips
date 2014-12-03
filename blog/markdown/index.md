@@ -24,10 +24,11 @@ let me show you a picture
 ![its great](https://octodex.github.com/images/yaktocat.png)
 
 want to make a list?
-*books
-  1.high performance mysql
-  2.linux command line
-  3.nodejs in action
-*movies
+* books
+  1. high performance mysql
+  2. linux command line
+  3. nodejs in action
+  
+* movies
   - inception
   - brave heart

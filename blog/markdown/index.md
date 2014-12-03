@@ -4,7 +4,7 @@
 simple paragraph
 *bold1*
 **bold2**
-__italic__hello__world__
+_italic_hello_world_
 ```javascript
 function foo(){
   console.log("hello markdown!");

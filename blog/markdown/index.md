@@ -13,6 +13,7 @@ simple paragraph b
 **bold2**
 
 _italic_hello_world_
+
 want a link to other page?
 [let's bing](http://www.bing.com)
 

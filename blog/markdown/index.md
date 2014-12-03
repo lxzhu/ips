@@ -61,8 +61,9 @@ look!, we could have a todo list here:
 - [] get some money
 - [] learn chinese calligraphy
 
-finally, a table
+finally, a book table
 
 | book name  | author   | isbn |
 | ---------- | -------- | ------ |
 | Fooled by Randomness | Nassim Nicholas Taleb | 978-0-141-03274-0 |
+| MapReduce Design Patterns | Donald Miner, Adam Shook | 978-7-115-36094-6 |

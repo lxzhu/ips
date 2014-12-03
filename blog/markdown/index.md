@@ -62,6 +62,6 @@ look!, we could have a todo list here:
 - [] learn chinese calligraphy
 
 finally, a table
-|book name | author | isbn |
-|----------|--------|------|
-|Fooled by Randomness|Nassim Nicholas Taleb|978-0-141-03274-0|
+| book name  | author   | isbn |
+| ---------- | -------- | ------ |
+| Fooled by Randomness | Nassim Nicholas Taleb | 978-0-141-03274-0 |

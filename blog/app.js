@@ -6,6 +6,12 @@ var express = require('express');
 var redirect = require('express-redirect');
 var marked = require('marked');
 var highlight = require('highlight.js')
+
+// #region to make sure the cwd is the dir of app.js
+var dirname = path.dirname(module.filename);
+process.chdir(dirname);
+// #end
+
 var app = express();
 redirect(app);
 
@@ -18,9 +24,9 @@ marked.setOptions({
 	sanitize : true,
 	smartLists : true,
 	smartypants : false,
-	highlight: function (code) {
-	    return highlight.highlightAuto(code).value;
-	  }
+	highlight : function(code) {
+		return highlight.highlightAuto(code).value;
+	}
 });
 app.set('port', process.env.PORT || 8000);
 app.redirect('/', '/articles/index.html');

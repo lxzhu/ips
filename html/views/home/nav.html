@@ -1,0 +1,13 @@
+ <div class="col-sm-3 col-md-2 sidebar">
+					<ul class="nav nav-sidebar" ng-if="mx.items" ng-repeat="item in mx.items">
+					 <li class="active"><a ui-sref="{{item.url}}">{{item.title}}</a>
+					     <ul ng-if="item.items" ng-repeat="subItem in item.items">
+									<li><a ui-sref="{{subItem.url}}">{{subItem.title}}</a>
+										<ul ng-if="subItem.items" ng-repeat="secondaryItem in subItem.items">
+											<li><a ui-sref="{{secondaryItem.url}}">{{secondaryItem.title}}</a></li>
+										</ul>
+									</li>
+							 </ul>
+						</li>
+					</ul>
+        </div>

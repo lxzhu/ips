@@ -1,4 +1,10 @@
-//for require js
-/*define(['angular','angularResource','angularUiRouter','uiBootstarpTpls','angularCookie','angularAnimate'],function(angular){
-	return angular.module('webApp',['ngResource','ui.router','ui.bootstrap','ngCookie','ngAnimate']);
-})*/
+'use strict';
+
+angular.module('mxApp', [
+  'ngCookies',
+  'ngResource',
+  'ngSanitize',
+  'ngAnimate',
+  'ui.router',
+  'ui.bootstrap'
+]);

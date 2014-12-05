@@ -1,5 +1,9 @@
-var mxAppModule=angular.module('mxApp',['ui.router','ui.bootstrap']);
+'use strict';
 
-mxAppModule.controller("helloController",function($scope){
-	$scope.text="Welcome,Mengxia"
-})
+angular.module('mxApp').controller("ctrl.home.home",['$scope','leftMenuService',function($scope,leftMenuService){
+	var mx=$scope.mx={};
+	/*leftMenuService.getMenu().then(function(service){
+		mx.items=service.data.items;
+	});*/
+	
+}])

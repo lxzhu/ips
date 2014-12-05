@@ -1,0 +1,11 @@
+{
+  "name":"BLOG.MENGXIA.ME",
+  "dependencies":{
+    "express":"4.10.*",
+    "express-redirect":"1.1.*",
+    "promise":"6.0.*",    
+    "serve-favicon":"2.1.*",
+    "marked":"0.3.*",
+    "highlight.js":"8.4.*"
+  }
+}

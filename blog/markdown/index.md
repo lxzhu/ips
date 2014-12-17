@@ -59,8 +59,8 @@ want to make a list?
 look!, we could have a todo list here:
 - [x] start blog with markdown syntax
 - [x] write some python code
-- [] get some money
-- [] learn chinese calligraphy
+- [ ] get some money
+- [ ] learn chinese calligraphy
 
 finally, a book table
 

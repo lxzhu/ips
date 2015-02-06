@@ -4,7 +4,7 @@ var config = {
 	mysql : {
 		host : 'localhost',
 		port : '3306',
-		user : 'root',
+		user : 'ips_login',
 		password : 'N0rikos123',
 		database : 'ips'
 	}
